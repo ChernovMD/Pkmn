@@ -41,7 +41,7 @@ public class CardImport {
                 card.evolvesFrom = evolvesFromCard;
             }else {
                 Card evolvesFromCard = importCard(evolvesFromStr);
-                card.evolvesFrom = evolvesFromCard;;
+                card.evolvesFrom = evolvesFromCard;
             }
 
 
