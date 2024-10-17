@@ -11,7 +11,7 @@ public class Card implements Serializable{
     String name;
     int hp;
     EnergyType pokemonType;
-    Card evolvesFrom;
+    public Card evolvesFrom;
     List<AttackSkill> skills;
     EnergyType weaknessType;
     EnergyType resistanceType;
@@ -85,9 +85,12 @@ public class Card implements Serializable{
         return evolvesFrom;
     }
 
+    /*
     public void setEvolvesFrom(Card evolvesFrom) {
         this.evolvesFrom = evolvesFrom;
     }
+
+    */
 
     public List<AttackSkill> getSkills() {
         return skills;

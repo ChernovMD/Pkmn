@@ -35,13 +35,13 @@ public class CardImport {
             String evolvesFromStr = br.readLine().trim();  //5
             if (evolvesFromStr.endsWith(".txt")) {
                 Card evolvesFromCard = importCard(evolvesFromStr);
-                card.setEvolvesFrom(evolvesFromCard);
+                card.evolvesFrom = evolvesFromCard;
             }else if (evolvesFromStr.equals("-")) {
                 Card evolvesFromCard = new Card();
-                card.setEvolvesFrom(evolvesFromCard);
+                card.evolvesFrom = evolvesFromCard;
             }else {
                 Card evolvesFromCard = importCard(evolvesFromStr);
-                card.setEvolvesFrom(evolvesFromCard);
+                card.evolvesFrom = evolvesFromCard;;
             }
 
 

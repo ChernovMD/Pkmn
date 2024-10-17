@@ -4,7 +4,7 @@ public enum EnergyType {
     FIRE,
     GRASS,
     WATER,
-    LIGHTING,
+    LIGHTNING,
     PSYCHIC,
     FIGHTING,
     DARKNESS,

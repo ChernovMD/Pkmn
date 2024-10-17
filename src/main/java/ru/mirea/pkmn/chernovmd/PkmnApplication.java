@@ -12,7 +12,7 @@ public class PkmnApplication {
         export.exportToFile(card);
 
 
-        Card card_2 = cardImport.desCard("C:\\Users\\markc.LAPTOP-DIL5991K\\Downloads\\Pkmn\\Palossand.crd");
+        Card card_2 = cardImport.desCard("C:\\Users\\markc.LAPTOP-DIL5991K\\Downloads\\Pkmn\\card_for_export.crd");
         System.out.println("Вооооот");
         System.out.println(card_2.printCard());
 
